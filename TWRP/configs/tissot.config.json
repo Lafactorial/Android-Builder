@@ -16,6 +16,6 @@
             "Repo": "https://github.com/TeamWin/android_device_qcom_common",
             "Branch": "android-12.1",
             "Location": "device/qcom/common",
-        }
+        },
     }
 ]
