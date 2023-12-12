@@ -3,6 +3,9 @@
         "OrangeFox": {
             "Repo": "https://gitlab.com/OrangeFox/sync.git",
             "Branch": "12.1"
+            "Repo": "https://github.com/TeamWin/android_device_qcom_common",
+            "target_path": "device/qcom/common",
+            "revision":    "android-9.0"
         },
         "Device": {
             "Repo": "https://github.com/Lafactorial/device_tissot_twrp",
@@ -11,11 +14,6 @@
             "DeviceName": "tissot",
             "Makefile": "twrp_tissot",
             "BootPartition": "boot"
-        },
-        "Common": {
-        "Repo": "https://github.com/TeamWin/android_device_qcom_common",
-        "target_path": "device/qcom/common",
-        "revision":    "android-9.0"
         }
   }
 ]
