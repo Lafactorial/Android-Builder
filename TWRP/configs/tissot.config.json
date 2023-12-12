@@ -11,11 +11,6 @@
             "DeviceName": "tissot",
             "Makefile": "twrp_tissot",
             "BootPartition": "boot"
-        },
-        "Common": {
-            "Repo": "https://github.com/TeamWin/android_device_qcom_common",
-            "Branch": "android-9.0",
-            "Location": "device/qcom/common"
         }
     }
 ]
