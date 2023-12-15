@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Mi6X",
-      "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne",
-      "branch": "TDA",
-      "device": "wayne",
-      "defconfig": "vendor/wayne_defconfig"
+      "name": "XiaomiMiA1",
+      "repo": "https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953",
+      "branch": "lineage-20",
+      "device": "tissot",
+      "defconfig": "msm8953-perf_defconfig"
     },
     "toolchains": [
       {
@@ -57,9 +57,13 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": true
+      "release": true,
+      "custom": {
+        "repo": "https://github.com/Lafactorial/Anykernel3/",
+        "branch": "tissot"
+      }
     },
     "enableKernelSU": true,
-    "enableLXC": false
+    "enableLXC": true
   }
 ]
