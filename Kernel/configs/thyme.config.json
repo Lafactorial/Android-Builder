@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi10S（Proton）",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "XiaomiMiA1",
+      "repo": "https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953",
+      "branch": "lineage-21",
+      "device": "tissot",
+      "defconfig": "msm8953-perf_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
@@ -46,11 +46,11 @@
   },
   {
     "kernelSource": {
-      "name": "Xiaomi10S（Google）",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "XiaomiMiA1",
+      "repo": "https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953",
+      "branch": "lineage-21",
+      "device": "tissot",
+      "defconfig": "msm8953-perf_defconfig"
     },
     "toolchains": [
       {
@@ -83,8 +83,8 @@
       "use": true,
       "release": true,
       "custom": {
-        "repo": "https://github.com/easterNday/AnyKernel3/",
-        "branch": "thyme"
+        "repo": "https://github.com/Lafactorial/Anykernel3/",
+        "branch": "tissot"
       }
     },
     "enableKernelSU": true,
@@ -92,11 +92,11 @@
   },
   {
     "kernelSource": {
-      "name": "Xiaomi10S（Utsav）",
-      "repo": "https://github.com/UtsavBalar1231/kernel_xiaomi_sm8250",
-      "branch": "android13-stable",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "XiaomiMiA1",
+      "repo": "https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953",
+      "branch": "lineage-21",
+      "device": "tissot",
+      "defconfig": "msm8953-perf_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
