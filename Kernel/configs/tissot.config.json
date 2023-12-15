@@ -1,0 +1,51 @@
+[
+  {
+    "kernelSource": {
+      "name": "Xiaomi Mi A1（Tissot）",
+      "repo": "https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953",
+      "branch": "lineage-20",
+      "device": "tissot",
+      "defconfig": "msm8953-perf_defconfig"
+    },
+    "enableCcache": true,
+    "toolchains": [
+      {
+        "repo": "https://github.com/kdrag0n/proton-clang",
+        "branch": "master",
+        "name": "proton-clang",
+        "binaryEnv": [
+          "bin"
+        ]
+      }
+    ],
+    "params": {
+      "ARCH": "arm64",
+      "CC": "proton-clang/bin/clang",
+      "externalCommands": {
+        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "LD": "proton-clang/bin/ld.lld",
+        "AR": "proton-clang/bin/llvm-ar",
+        "NM": "proton-clang/bin/llvm-nm",
+        "OBJCOPY": "proton-clang/bin/llvm-objcopy",
+        "OBJDUMP": "proton-clang/bin/llvm-objdump",
+        "READELF": "proton-clang/bin/llvm-readelf",
+        "OBJSIZE": "proton-clang/bin/llvm-size",
+        "STRIP": "proton-clang/bin/llvm-strip",
+        "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "proton-clang/bin/llvm-ar",
+        "LLVM_DIS": "proton-clang/bin/llvm-dis"
+      }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "custom": {
+        "repo": "https://github.com/Lafactorial/Anykernel3/",
+        "branch": "tissot"
+      }
+    },
+    "enableKernelSU": true,
+    "enableLXC": false
+  }
+]
