@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "XiaomiMiA1",
-      "repo": "https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953",
-      "branch": "lineage-20",
+      "repo": "https://github.com/sirnewbies/Another_Kernel_tissot-4.9",
+      "branch": "NON-OC",
       "device": "tissot",
-      "defconfig": "msm8953-perf_defconfig"
+      "defconfig": "tissot_defconfig"
     },
     "toolchains": [
       {
