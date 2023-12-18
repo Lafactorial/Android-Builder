@@ -45,7 +45,7 @@
         "branch": "tissot"
       }
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": true
   }
 ]
