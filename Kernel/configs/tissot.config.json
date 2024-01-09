@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "XiaomiMiA1",
       "repo": "https://github.com/sirnewbies/Another_Kernel_tissot-4.9",
-      "branch": "Non-Treble-Non-KSU",
+      "branch": "NON-OC",
       "device": "tissot",
       "defconfig": "tissot_defconfig"
     },
