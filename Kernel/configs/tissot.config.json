@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "XiaomiMiA1",
+      "name": "Noob-Kernel",
       "repo": "https://github.com/sirnewbies/noob_kernel_xiaomi_msm8953",
       "branch": "14",
       "device": "tissot",
