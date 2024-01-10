@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "XiaomiMiA1",
-      "repo": "https://github.com/sirnewbies/Another_Kernel_tissot-4.9",
-      "branch": "NON-OC",
+      "repo": "https://github.com/sirnewbies/noob_kernel_xiaomi_msm8953",
+      "branch": "14",
       "device": "tissot",
       "defconfig": "tissot_defconfig"
     },
@@ -42,7 +42,7 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/Lafactorial/Anykernel3/",
-        "branch": "tissot"
+        "branch": "tissot-14"
       }
     },
     "enableKernelSU": false,
