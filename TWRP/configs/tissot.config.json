@@ -1,0 +1,16 @@
+[
+    {
+        "OrangeFox": {
+            "Repo": "https://gitlab.com/OrangeFox/sync.git",
+            "Branch": "12.1"
+        },
+        "Device": {
+            "Repo": "https://github.com/cheldump/twrp_device_xiaomi_tissot",
+            "Branch": "android-14",
+            "Location": "device/xiaomi/tissot",
+            "DeviceName": "tissot",
+            "Makefile": "twrp_tissot",
+            "BootPartition": "boot"
+        }
+    }
+]
