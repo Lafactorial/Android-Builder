@@ -42,7 +42,7 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/Lafactorial/Anykernel3/",
-        "branch": "tissot-14"
+        "branch": "lineage-21"
       }
     },
     "enableKernelSU": false,
