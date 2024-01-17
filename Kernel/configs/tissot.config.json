@@ -14,7 +14,7 @@
         "branch": "master",
         "name": "proton-clang",
         "binaryEnv": [
-          "bin"
+          "/bin:$PATH""
         ]
       }
     ],
