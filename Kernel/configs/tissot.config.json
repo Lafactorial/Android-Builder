@@ -20,10 +20,10 @@
     "enableCcache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "proton-clang/bin:$PATH",
+      "CC": "proton-clang/bin/clang",
       "externalCommands": {
-        "CROSS_COMPILE": "proton-clang/aarch64-linux-gnu/bin/strip",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi/bin/strip",
+        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
         "LD": "proton-clang/bin/ld.lld",
         "AR": "proton-clang/bin/llvm-ar",
         "NM": "proton-clang/bin/llvm-nm",
