@@ -3,9 +3,9 @@
     "kernelSource": {
       "name": "Noob-Kernel",
       "repo": "https://github.com/Lafactorial/android_kernel_xiaomi_msm8953",
-      "branch": "noobs",
+      "branch": "test",
       "device": "tissot",
-      "defconfig": "tissot_defconfig xiaomi/xiaomi.config"
+      "defconfig": "tissot_defconfig"
     },
     "toolchains": [
       {
