@@ -5,7 +5,7 @@
       "repo": "https://github.com/Lafactorial/android_kernel_xiaomi_msm8953",
       "branch": "noob1",
       "device": "tissot",
-      "defconfig": "msm8953-perf_defconfig xiaomi/xiaomi.config"
+      "defconfig": "tissot_defconfig xiaomi/xiaomi.config"
     },
     "toolchains": [
       {
