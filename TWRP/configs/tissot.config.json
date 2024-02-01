@@ -5,8 +5,8 @@
             "Branch": "12.1"
         },
         "Device": {
-            "Repo": "https://github.com/Lafactorial/twrp_device_xiaomi_tissot1",
-            "Branch": "android-14",
+            "Repo": "https://github.com/Lafactorial/twrp_device_tissot",
+            "Branch": "android-12.1",
             "Location": "device/xiaomi/tissot",
             "DeviceName": "tissot",
             "Makefile": "twrp_tissot",
