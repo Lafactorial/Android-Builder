@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Noob-Kernel",
       "repo": "https://github.com/Lafactorial/android_kernel_xiaomi_msm8953",
-      "branch": "test",
+      "branch": "lineage-21",
       "device": "tissot",
       "defconfig": "tissot_defconfig"
     },
