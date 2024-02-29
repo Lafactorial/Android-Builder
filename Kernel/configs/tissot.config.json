@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Noob-Kernel",
       "repo": "https://github.com/Lafactorial/android_kernel_xiaomi_msm8953",
-      "branch": "lineage-21",
+      "branch": "ksu",
       "device": "tissot",
       "defconfig": "tissot_defconfig"
     },
@@ -45,7 +45,7 @@
         "branch": "tissot-14"
       }
     },
-    "enableKernelSU": false,
+    "enableKernelSU": true,
     "enableLXC": true
   }
 ]
