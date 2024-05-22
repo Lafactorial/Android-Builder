@@ -10,7 +10,7 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/Lafactorial/android_prebuilts_clang_host_linux-x86_clang-r510928.git",
+        "repo": "https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r510928.git",
         "branch": "14.0",
         "name": "clang",
         "binaryEnv": [
