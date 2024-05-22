@@ -17,7 +17,7 @@
           "bin"
         ]
       },
-    ],
+    ]
     "enableCcache": true,
     "params": {
       "ARCH": "arm64",
