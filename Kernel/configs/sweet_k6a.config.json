@@ -63,7 +63,7 @@
         "branch": "sweet_k6a"
       }
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": true
   }
 ]
