@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Sleepy-Kernel",
-      "repo": "https://github.com/Lafactorial/kernel_xiaomi_sm6150-sleepy",
+      "repo": "https://github.com/itsshashanksp/kernel_xiaomi_sm6150",
       "branch": "sleepy-k6a",
       "device": "sweet_k6a",
       "defconfig": "vendor/sweetk6a.config",
@@ -10,8 +10,8 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/Lafactorial/proton-clang",
-        "branch": "master",
+        "repo": "https://github.com/Lafactorial/android_prebuilts_clang_host_linux-x86_clang-r510928",
+        "branch": "14.0",
         "name": "clang",
         "binaryEnv": [
           "bin"
@@ -45,7 +45,7 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/itsshashanksp/AnyKernel3/",
-        "branch": "sweet_k6a"
+        "branch": "sweetk6a"
       }
     },
     "enableKernelSU": false,
