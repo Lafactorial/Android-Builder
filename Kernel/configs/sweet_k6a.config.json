@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Sleepy-Kernel",
-      "repo": "https://github.com/itsshashanksp/kernel_xiaomi_sm6150",
+      "repo": "https://github.com/lafactorial/kernel_xiaomi_sm6150-sleepy",
       "branch": "sleepy-k6a",
       "device": "sweet_k6a",
-      "defconfig": "vendor/sweetk6a.config vendor/sdmsteppe-perf_defconfig",
+      "defconfig": "vendor/sweetk6a.config",
       "defconfig": "vendor/sdmsteppe-perf_defconfig"
     },
     "toolchains": [
