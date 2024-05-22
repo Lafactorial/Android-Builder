@@ -10,8 +10,8 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/Lafactorial/android_prebuilts_clang_host_linux-x86_clang-r510928",
-        "branch": "14.0",
+        "repo": "https://github.com/Lafactorial/proton-clang",
+        "branch": "master",
         "name": "clang",
         "binaryEnv": [
           "bin"
