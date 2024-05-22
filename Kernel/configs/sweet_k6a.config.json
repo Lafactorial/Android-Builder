@@ -5,7 +5,7 @@
       "repo": "https://github.com/itsshashanksp/kernel_xiaomi_sm6150",
       "branch": "sleepy-k6a-inline",
       "device": "sweet_k6a",
-      "defconfig": "vendor/sweetk6a.config vendor/sdmsteppe-perf_defconfig"
+      "defconfig": "sweetk6a.config sdmsteppe-perf_defconfig"
     },
     "toolchains": [
       {
