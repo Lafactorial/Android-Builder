@@ -11,8 +11,8 @@
     "enableCcache": true,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
+        "repo": "https://gitlab.com/LeCmnGend/proton-clang",
+        "branch": "clang-15",
         "name": "proton-clang",
         "binaryEnv": [
           "bin"
@@ -42,7 +42,7 @@
       "use": true,
       "release": true,
       "custom": {
-        "repo": "https://github.com/itsshashanksp/AnyKernel3/",
+        "repo": "https://github.com/lafactorial/AnyKernel31/",
         "branch": "sweetk6a"
       }
     },
