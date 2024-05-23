@@ -6,7 +6,7 @@
       "branch": "test",
       "device": "sweet2",
       "defconfig": "vendor/sweet2.config",
-      "defconfig": "vendor/sdmsteppe-perf_defconfig",
+      "defconfig": "vendor/sdmsteppe-perf_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
