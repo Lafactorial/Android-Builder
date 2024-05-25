@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Kernel",
+      "name": "Kewl-Kernel",
       "repo": "https://github.com/Pulkit077/kernel_xiaomi_sweet_k6a.git",
       "branch": "lineage-21",
       "device": "sweet_k6a",
