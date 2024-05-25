@@ -1,17 +1,16 @@
 [
   {
     "kernelSource": {
-      "name": "Sleepy-Kernel",
-      "repo": "https://github.com/itsshashanksp/kernel_xiaomi_sm6150.git",
-      "branch": "sleepy-k6a",
+      "name": "Kernel",
+      "repo": "https://github.com/Pulkit077/kernel_xiaomi_sweet_k6a.git",
+      "branch": "lineage-21",
       "device": "sweet_k6a",
-      "defconfig": "vendor/sweetk6a.config",
-      "defconfig": "vendor/sdmsteppe-perf_defconfig"
+      "defconfig": "vendor/sweet_user_defconfig",
     },
     "toolchains": [
       {
-        "repo": "https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r510928.git",
-        "branch": "14.0",
+        "repo": " https://gitlab.com/PixelOS-Devices/playgroundtc.git",
+        "branch": "17",
         "name": "clang",
         "binaryEnv": [
           "bin"
@@ -44,7 +43,7 @@
       "use": true,
       "release": true,
       "custom": {
-        "repo": "https://github.com/itsshashanksp/AnyKernel3/",
+        "repo": "https://github.com/Lafactorial/AnyKernel31/",
         "branch": "sweetk6a"
       }
     },
