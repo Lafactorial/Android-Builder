@@ -9,8 +9,8 @@
     },
     "toolchains": [
       {
-        "repo": "https://gitlab.com/PixelOS-Devices/playgroundtc",
-        "branch": "17",
+        "repo": "https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r510928",
+        "branch": "14.0",
         "name": "clang",
         "binaryEnv": [
           "bin"
