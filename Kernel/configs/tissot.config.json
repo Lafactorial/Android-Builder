@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Noob-Kernel",
-      "repo": "https://github.com/Lafactorial/android_kernel_xiaomi_msm8953",
-      "branch": "test-1",
+      "name": "Lokum-Kernel",
+      "repo": "https://github.com/MetoisTaken/Lokum-Kernel_tissot",
+      "branch": "OC",
       "device": "tissot",
-      "defconfig": "msm8953-perf_defconfig xiaomi/tissot.config"
+      "defconfig": "tissot_defconfig"
     },
     "toolchains": [
       {
@@ -60,10 +60,10 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/Lafactorial/Anykernel3/",
-        "branch": "tissot-14"
+        "branch": "tissot"
       }
     },
-    "enableKernelSU": false,
+    "enableKernelSU": true,
     "enableLXC": true
   }
 ]
