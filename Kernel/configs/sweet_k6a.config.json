@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Noob-Kernel",
-      "repo": "https://github.com/Lafactorial/android_kernel_xiaomi_msm8953",
-      "branch": "test-1",
-      "device": "tissot",
-      "defconfig": "msm8953-perf_defconfig xiaomi/tissot.config"
+      "name": "Kewl-Kernel",
+      "repo": "https://github.com/Pulkit077/kernel_xiaomi_sweet_k6a",
+      "branch": "lineage-21",
+      "device": "swett_k6a",
+      "defconfig": "vendor/sweet_user_defconfig"
     },
     "toolchains": [
       {
@@ -59,11 +59,11 @@
       "use": true,
       "release": true,
       "custom": {
-        "repo": "https://github.com/Lafactorial/Anykernel3/",
-        "branch": "tissot-14"
+        "repo": "https://github.com/Lafactorial/Anykernel31/",
+        "branch": "sweetk6a"
       }
     },
-    "enableKernelSU": false,
+    "enableKernelSU": true,
     "enableLXC": true
   }
 ]
