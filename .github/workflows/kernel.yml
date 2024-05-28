@@ -132,18 +132,6 @@ jobs:
           # tree ${{ env.KERNEL_NAME }}
 
       - name: 💫 Get toolchains
-      
-      - name: Skip smudge - We'll download binary files later in a faster batch
-          git lfs install --skip-smudge
-
-      -name:  Do git clone here
-          git clone ...
-
-      -name:  Fetch all the binary files in the new clone 
-          git lfs pull
-
-      -name:  Reinstate smudge
-          git lfs install --force
         env:
           toolchains: "${{ toJSON(matrix.CONFIG.toolchains) }}"
         run: |
