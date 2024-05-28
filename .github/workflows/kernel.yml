@@ -180,7 +180,7 @@ jobs:
               toolchain_repo=$(echo $toolchain | jq -r ".repo")
               toolchain_branch=$(echo $toolchain | jq -r ".branch")
               git lfs install --skip-smudge
-              git clone --recursive --depth=1 -j $(nproc) --branch $toolchain_branch $toolchain_repo $toolchain_name
+              git clone --depth=1 --branch $toolchain_branch $toolchain_repo $toolchain_name
               git lfs pull
               git lfs install --force
 
