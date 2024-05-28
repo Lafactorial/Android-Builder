@@ -4,7 +4,7 @@
       "name": "Kewl-Kernel",
       "repo": "https://github.com/Pulkit077/kernel_xiaomi_sweet_k6a",
       "branch": "lineage-21",
-      "device": "swett_k6a",
+      "device": "sweet_k6a",
       "defconfig": "vendor/sweet_user_defconfig"
     },
     "toolchains": [
