@@ -45,7 +45,7 @@
         "branch": "tissot-14"
       }
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": false
   }
 ]
