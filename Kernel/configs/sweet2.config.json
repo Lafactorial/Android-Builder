@@ -10,7 +10,7 @@
     "enableCcache": true,
     "toolchains": [
       {
-        "repo": "1 https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r530567",
+        "repo": "https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r530567",
         "branch": "14.0",
         "name": "clang 19.0.1",
         "binaryEnv": [
