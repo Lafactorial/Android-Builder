@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Noob-Kernel",
-      "repo": "https://github.com/cheldump/kernel_xiaomi_tissot",
-      "branch": "lineage-21",
-      "device": "tissot",
-      "defconfig": "msm8953-perf_defconfig xiaomi/tissot.config"
+      "repo": "https://github.com/Lafactorial/kernel_xiaomi_sm6150",
+      "branch": "lineage-22.1",
+      "device": "sweet2",
+      "defconfig": "sweet_user_defconfig"
     },
     "toolchains": [
       {
@@ -59,11 +59,11 @@
       "use": true,
       "release": true,
       "custom": {
-        "repo": "https://github.com/Lafactorial/Anykernel3/",
-        "branch": "tissot-14"
+        "repo": "https://github.com/Lafactorial/Anykernel31/",
+        "branch": "sweetk6a"
       }
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": true
   }
 ]
