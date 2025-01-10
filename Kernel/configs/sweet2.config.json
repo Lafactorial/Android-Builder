@@ -22,6 +22,7 @@
       "ARCH": "arm64",
       "CC": "clang/bin/clang",
       "externalCommands": {
+        "CLANG_TRIPLE": "clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE": "clang/bin/aarch64-linux-android-",
         "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-androideabi-",
         "LD": "clang/bin/ld.lld",
