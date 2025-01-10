@@ -5,7 +5,7 @@
       "repo": "https://github.com/Lafactorial/kernel_xiaomi_sm6150",
       "branch": "fifteen",
       "device": "sweet_k6a",
-      "defconfig": "sweet_defconfig",
+      "defconfig": "sweet_defconfig"
     },
     "enableCcache": true,
     "toolchains": [
