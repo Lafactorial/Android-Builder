@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "VantomKernel",
       "repo": "https://github.com/Lafactorial/kernel_xiaomi_sm6150",
-      "branch": "fifteen",
+      "branch": "lineage-22.1",
       "device": "sweet_k6a",
       "defconfig": "sweet_defconfig"
     },
