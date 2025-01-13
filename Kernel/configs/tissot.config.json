@@ -7,7 +7,7 @@
       "device": "sweet_k6a",
       "defconfig": "sweet_defconfig"
     },
-    "toolchains": [
+    "toolchains":
       {
         "repo": "https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r530567",
         "branch": "14.0",
@@ -16,7 +16,6 @@
           "bin"
         ]
       },
-    ],
     "enableCcache": true,
     "params": {
       "ARCH": "arm64",
