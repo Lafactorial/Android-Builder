@@ -5,7 +5,7 @@
       "repo": "https://github.com/Lafactorial/kernel_xiaomi_sweet_k6a",
       "branch": "Positron",
       "device": "sweet_k6a",
-      "defconfig": "sweet2_defconfig sweet2.config"
+      "defconfig": "sweet2_defconfig vendor/sweet2.config"
     },
     "toolchains": [
       {
