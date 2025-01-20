@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Positron-Kernel",
+      "name": "Positron",
       "repo": "https://github.com/Lafactorial/kernel_xiaomi_sweet_k6a",
       "branch": "Positron",
       "device": "sweet_k6a",
@@ -9,29 +9,13 @@
     },
     "toolchains": [
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
-        "branch": "lineage-20.0",
+        "repo": "https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r530567",
+        "branch": "14.0",
         "name": "clang",
         "binaryEnv": [
           "bin"
         ]
       },
-      {
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
-        "branch": "lineage-19.1",
-        "name": "aarch64",
-        "binaryEnv": [
-          "bin"
-        ]
-      },
-      {
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
-        "branch": "lineage-19.1",
-        "name": "arm",
-        "binaryEnv": [
-          "bin"
-        ]
-      }
     ],
     "enableCcache": true,
     "params": {
@@ -60,7 +44,7 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/Lafactorial/Anykernel31/",
-        "branch": "sweetk6a"
+        "branch": "sweet2"
       }
     },
     "enableKernelSU": false,
