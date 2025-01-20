@@ -87,10 +87,10 @@ jobs:
       # Install prerequisites for Ubuntu
       - name: ⭐ Install prerequisites
         run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends git make bc bison openssl
-          sudo apt-get install -y curl zip kmod cpio flex libelf-dev libssl-dev libtfm-dev wget 
-          sudo apt-get install -y device-tree-compiler ca-certificates python3 python2 xz-utils
+          apt update && apt upgrade -y
+          apt install -y --no-install-recommends git make bc bison openss
+          apt install -y curl zip kmod cpio flex libelf-dev libssl-dev libtfm-dev wget 
+          apt install -y device-tree-compiler ca-certificates python3 python2 xz-utils
           ln -sf "/usr/bin/python${python_version}" /usr/bin/python
 
       # Initialize ccache
