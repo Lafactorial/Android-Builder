@@ -1,16 +1,16 @@
 [
   {
     "kernelSource": {
-      "name": "Positron",
-      "repo": "https://github.com/Lafactorial/kernel_xiaomi_sweet_k6a",
-      "branch": "Positron",
+      "name": "VantomKernel",
+      "repo": "https://github.com/Lafactorial/kernel_xiaomi_sm6150",
+      "branch": "lineage-22.1-ksu",
       "device": "sweet_k6a",
-      "defconfig": "sweet2_defconfig vendor/sweet2.config"
+      "defconfig": "sweet_defconfig"
     },
     "toolchains": [
       {
-        "repo": "https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r530567",
-        "branch": "14.0",
+        "repo": "https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r547379",
+        "branch": "15.0",
         "name": "clang",
         "binaryEnv": [
           "bin"
@@ -24,7 +24,7 @@
       "externalCommands": {
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
         "CROSS_COMPILE": "aarch64-linux-android-",
-        "CROSS_COMPILE_ARM32": "arm-linux-androideabi-",
+        "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
         "LD": "ld.lld",
         "AR": "llvm-ar",
         "NM": "llvm-nm",
@@ -44,7 +44,7 @@
       "release": true,
       "custom": {
         "repo": "https://github.com/Lafactorial/Anykernel31/",
-        "branch": "sweet2"
+        "branch": "sweetk6a"
       }
     },
     "enableKernelSU": false,
